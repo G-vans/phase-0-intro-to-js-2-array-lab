@@ -7,7 +7,7 @@ let cats = ["Milo", "Otis", "Garfield"];
 function destructivelyAppendCat(name) {
     return cats.push(name);
 }
-console.log(destructivelyAppendCat('Ralph'))
+destructivelyAppendCat('Ralph')
 
 
 
